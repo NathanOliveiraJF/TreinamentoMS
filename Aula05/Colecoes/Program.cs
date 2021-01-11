@@ -66,7 +66,6 @@ namespace Colecoes
         }
 
 
-
         public static void WriteLine(int x)
         {
             Console.Write($"(int): {x}");

@@ -12,7 +12,7 @@ namespace Dicionario
             var p3 = new Produto { Codigo = 3, Descricao = "Sprite", Preco = 5.0 };
 
             var dictProdutos = new Dictionary<int, Produto>();
-
+           
             dictProdutos.Add(p1.Codigo, p1);
             dictProdutos.Add(p2.Codigo, p2);
             dictProdutos.Add(p3.Codigo, p3);
